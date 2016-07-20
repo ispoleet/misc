@@ -1,0 +1,2 @@
+g++  -c main.cpp -I/usr/local/LEDA/incl -Wall -O2 -fno-strict-aliasing
+g++  -o main main.o -L/usr/local/LEDA -L/usr/X11R6/lib64/ -lX11 -lleda -lm
