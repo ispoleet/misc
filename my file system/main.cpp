@@ -184,7 +184,7 @@ int main()
                     // read from stdin until an INT signal received
                     while( !INT_recv ) temp[len++] = cin.get();
 
-                    //strcpy( temp, "kyriakos ispgolou\n\n\n" );
+                    //strcpy( temp, "kyriakos ispoglou\n\n\n" );
                     //len = strlen( temp );
 
                     echo( argv[1], temp, len ); // write buf to file
